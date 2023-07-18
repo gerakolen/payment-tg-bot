@@ -10,7 +10,7 @@ bot = Bot(token=config.tg_bot.BOT_TOKEN)
 dp = Dispatcher(bot)
 
 # prices
-PRICE_1 = types.LabeledPrice(label="Товар 1", amount=500 * 100)  # 500 rubles
+PRICE_1 = types.LabeledPrice(label="Товар 1", amount=500 * 100)  # 500 RUB
 
 
 # send invoice
