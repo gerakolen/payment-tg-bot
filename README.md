@@ -1,6 +1,7 @@
 # Introduction
 
-This is a template bot that can be used to connect the payment system in telegram.
+This is a template bot written with [Aiogram 2](https://docs.aiogram.dev/en/latest/) framework that can be used to
+connect the payment system in telegram.
 
 # Prerequisites
 
