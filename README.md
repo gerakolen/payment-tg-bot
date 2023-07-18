@@ -19,13 +19,9 @@ To run this project in your development machine, follow these steps:
    [virtualenv](https://virtualenv.pypa.io/) or
    [venv](https://docs.python.org/3/library/venv.html)
 
-2. Clone this repo:
+2. Clone this repo: `git clone <repo_url>`
 
-`git clone <repo_url>`
-
-3. Install dependencies:
-
-`pip install -r requirements.txt`
+3. Install dependencies: `pip install -r requirements.txt`
 
 4. Create `.env` file following the example file `.env.example`
 
