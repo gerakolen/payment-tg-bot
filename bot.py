@@ -17,7 +17,7 @@ PRICE_1 = types.LabeledPrice(label="Товар 1", amount=500 * 100)  # 500 RUB
 @dp.message_handler(commands=['buy'])
 async def payment(message: types.Message):
     PAYMENTS_TOKEN = config.tg_bot.PAYMENTS_TOKEN
-    if config.tg_bot.PAYMENTS_TOKEN.split(':')[1] == 'TEST':
+    if PAYMENTS_TOKEN.split(':')[1] == 'TEST':
         await message.answer('Тестовый платеж')
     await bot.send_invoice(message.chat.id,
                            title='Товар 1',
